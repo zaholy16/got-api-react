@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+
+* {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.container-cards {
+    display: flex;   
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.MuiCard-root {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.MuiCardContent-root {
+    background-color: #8FB8ED;
+    text-align: center;
+}
+
+.status {
+    display: flex;
+    background-color: #3581cc;
+    padding: 5px;
+    position: absolute;
+    align-self: center;
+    margin-top: 5px;
+    margin-left: 295px;
+    border-radius: 50%;
+}
+
+.status p {
+    font-size: large;
+    padding-right: 10px;
+}
+
+.details {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}

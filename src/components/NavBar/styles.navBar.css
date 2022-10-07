@@ -1,0 +1,19 @@
+
+.houses-logo {
+    display: flex;
+    padding: 10px;
+}
+
+.houses-logo img {
+    margin-left: 10px;
+    width: 70%;
+}
+
+.MuiPaper-root {
+    background-color: aqua;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
